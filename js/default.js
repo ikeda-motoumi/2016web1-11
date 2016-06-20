@@ -3,7 +3,7 @@ var answer = parseInt(window.prompt('かずあてげいむ 0～2のすうじを�
 
 var message;
 if(answer === number){
-  massage = '...ﾁｯ...';
+  message = '...ﾁｯ...';
 }else if(answer < number){
   message = 'もっと...おおきいです...';
 }else if(answer > number){
