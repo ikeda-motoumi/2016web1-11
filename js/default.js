@@ -3,6 +3,8 @@ var answer = parseInt(window.prompt('かずあてげいむ 0～2のすうじを�
 
 var message;
 
+
+while(){
 if(answer === number){
   message = 'ﾁｯ';
 }else if(answer < number){
@@ -12,5 +14,5 @@ if(answer === number){
 }else {
   message = '0~3をにゅうりょくしてくださいいいいいいいいいいいいいいいいいいいいいいいいい';
 }
-
+}
 document.getElementById('choice').textContent = message;
