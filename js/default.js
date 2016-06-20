@@ -3,12 +3,13 @@ var answer = parseInt(window.prompt('かずあてげいむ 0～2のすうじを�
 
 var message;
 
+test=0;
 
-while(){
+while(test=0){
 if(answer === number){
-  message = 'ﾁｯ';
+  message = 'ﾁｯ'test=1;
 }else if(answer < number){
-  message = 'もっと...おおきいです...';continue;
+  message = 'もっと...おおきいです...';
 }else if(answer > number){
   message = '小者め';continue;
 }else {
