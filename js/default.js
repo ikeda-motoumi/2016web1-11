@@ -5,11 +5,11 @@ var message;
 
 
 if(answer === number){
-  message = 'ﾁｯ'test=1;
+  message = 'ﾁｯ';
 }else if(answer < number){
   message = 'もっと...おおきいです...';
 }else if(answer > number){
-  message = '小者め';continue;
+  message = '小者め';
 }else {
   message = '0~3をにゅうりょくしてくださいいいいいいいいいいいいいいいいいいいいいいいいい';
 }
