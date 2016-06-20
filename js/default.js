@@ -2,8 +2,9 @@ var number = Math.floor(Math.random()*3);
 var answer = parseInt(window.prompt('かずあてげいむ 0～2のすうじをいれてね！！！！！！！！！'));
 
 var message;
+while{
 if(answer === number){
-  message = 'ﾁｯ\n  unnko';
+  message = 'ﾁｯ';
 }else if(answer < number){
   message = 'もっと...おおきいです...';
 }else if(answer > number){
@@ -11,5 +12,5 @@ if(answer === number){
 }else {
   message = '0~3をにゅうりょくしてくださいいいいいいいいいいいいいいいいいいいいいいいいい';
 }
-
+}
 document.getElementById('choice').textContent = message;
