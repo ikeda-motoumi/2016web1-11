@@ -3,7 +3,7 @@ var answer = parseInt(window.prompt('かずあてげいむ 0～2のすうじを�
 
 var message;
 if(answer === number){
-  message = 'ﾁｯ';
+  message = 'ﾁｯ\n unnko';
 }else if(answer < number){
   message = 'もっと...おおきいです...';
 }else if(answer > number){
